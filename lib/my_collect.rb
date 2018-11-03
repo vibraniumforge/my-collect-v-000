@@ -8,6 +8,6 @@ def my_collect(collection)
 end
 
 my_collect(collection)
-do |item|
-  return item
+do |collection|
+  return collection
 end
