@@ -12,7 +12,7 @@ def my_collect(collection)
 end
 
 my_collect(collection) do |lang|
-  return lang.upcase
+   lang.upcase
 end
 
 my_collect(student) do |student|
