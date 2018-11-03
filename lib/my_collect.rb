@@ -9,6 +9,6 @@ def my_collect(collection)
 end
 
 my_collect(collection)
-do |collection|
-  return collection
+do |item|
+  return item
 end
