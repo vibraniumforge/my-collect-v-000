@@ -1,3 +1,5 @@
+student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+collection = ["ruby", "javascript", "python", "objective-c"]
 
 def my_collect(collection)
   if block_given?
