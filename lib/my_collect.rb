@@ -9,8 +9,7 @@ def my_collect(collection)
       newAr << yield(collection[i])
       i+=1
     end
-    newAr
-
+  newAr
 end
 
 my_collect(collection)
