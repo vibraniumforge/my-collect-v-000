@@ -2,7 +2,7 @@ student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 collection = ["ruby", "javascript", "python", "objective-c"]
 
 def my_collect(collection)
-  if block_given?
+
     newAr=[]
     i=0
     while i<collection.length
@@ -10,7 +10,7 @@ def my_collect(collection)
       i+=1
     end
     newAr
-  end
+
 end
 
 my_collect(collection)
