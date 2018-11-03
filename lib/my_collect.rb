@@ -6,7 +6,7 @@ def my_collect(collection)
     newAr=[]
     i=0
     while i<collection.length
-      yield(collection[i])
+      newAr << yield(collection[i])
       i+=1
     end
     collection
