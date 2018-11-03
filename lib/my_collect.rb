@@ -11,13 +11,11 @@ def my_collect(collection)
   newAr
 end
 
-my_collect(collection)
-do |lang|
+my_collect(collection)do |lang|
    lang.upcase
- end
 end
 
-my_collect(student)
-do |student|
+my_collect(student) do |student|
   student.split(" ")[0]
 end
+
