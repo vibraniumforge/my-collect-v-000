@@ -11,8 +11,7 @@ def my_collect(collection)
   newAr
 end
 
-my_collect(collection)
-do |lang|
+my_collect(collection) do |lang|
   return lang.upcase
 end
 
