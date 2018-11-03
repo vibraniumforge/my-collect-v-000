@@ -2,8 +2,7 @@ student = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 collection = ["ruby", "javascript", "python", "objective-c"]
 
 def my_collect(collection)
-
-    newAr=[]
+  newAr=[]
     i=0
     while i<collection.length
       newAr << yield(collection[i])
@@ -19,5 +18,5 @@ end
 
 my_collect(student)
 do |student|
-  student.split(" ")
+  student.split(" ")[0]
 end
