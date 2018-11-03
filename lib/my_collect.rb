@@ -15,7 +15,6 @@ my_collect(collection) do |lang|
   return lang.upcase
 end
 
-my_collect(student)
-do |student|
+my_collect(student) do |student|
   student.split(" ")[0]
 end
