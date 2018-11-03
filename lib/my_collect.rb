@@ -14,6 +14,11 @@ def my_collect(collection)
 end
 
 my_collect(collection)
-do |item|
-  return item
+do |lang|
+  return lang.upcase
+end
+
+my_collect(student)
+do |student|
+  student.split(" ")
 end
